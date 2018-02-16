@@ -126,8 +126,9 @@
                 </ul>
             <?php endif; ?>
 			
-			<!--Custom Contact Form-->
+			<!-- Custom Contact Form -->
 			<h2>Contact Us</h2>
+				<!-- change id and title to your contact form 7 id and title -->
 				<?php echo do_shortcode( '[contact-form-7 id="52003" title="listings form"]' ); ?>
 				
             <!-- Footer -->
