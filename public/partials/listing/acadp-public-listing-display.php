@@ -125,9 +125,11 @@
                     <?php endforeach; ?>
                 </ul>
             <?php endif; ?>
+			
 			<!--Custom Contact Form-->
 			<h2>Contact Us</h2>
-            <?php echo do_shortcode( '[contact-form-7 id="52003" title="listings form"]' ); ?>
+				<?php echo do_shortcode( '[contact-form-7 id="52003" title="listings form"]' ); ?>
+				
             <!-- Footer -->
             <?php if( $can_show_user || $can_add_favourites || $can_report_abuse ) : ?>
                 <ol class="breadcrumb">
