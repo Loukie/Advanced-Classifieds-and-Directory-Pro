@@ -284,8 +284,8 @@ function the_acadp_listing_labels( $post_meta ) {
 	if( ! empty( $featured_listing_settings['show_featured_tag'] ) ) {
 	
 		if( isset( $post_meta['featured'] ) && 1 == (int) $post_meta['featured'][0] ) {
-//    		echo '<span class="label label-warning">'.$featured_listing_settings['label'].'</span>&nbsp;';
-			echo '<span class="label label-warning">Recommended</span>&nbsp;';
+    		echo '<span class="label label-warning">'.$featured_listing_settings['label'].'</span>&nbsp;';
+//			echo '<span class="label label-warning">Recommended</span>&nbsp;';
 		}
 		
 	}
